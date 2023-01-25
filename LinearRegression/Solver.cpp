@@ -6,13 +6,6 @@
 
 class Solver
 {
-private:
-
-	struct RegressionCoefficients
-	{
-		std::vector<double> coefficients;
-	};
-
 public:
 	void SolveCoefficients(std::string_view depedentVarName)
 	{
